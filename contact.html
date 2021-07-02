@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+    </section>
+
+<!-- ------------Contact Us -------------------------- -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15077413.715733869!2d9.329157792577234!3d-22.690701140797646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bf53c7e6ed37521%3A0xd3b9e5a5a8ecb261!2sNamibia!5e0!3m2!1sen!2sbd!4v1624047084911!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <a href="https://goo.gl/maps/8sPG2gD3TWqNvDGL6" target="_blank"><i class="fas fa-home"></i></a>
+                
+                <span>
+                    <h5>Irle, Windhoek, Namibia</h5>
+                    <p>C3FX+XH Windhoek, Namibia</p>
+                </span>
+                
+            </div>
+       
+
+  
+            <div class="">
+                <i class="fas fa-phone-square"></i>
+                <span>
+                    <h5>+880 1999 230669</h5>
+                    <p>Monday To Saturday, 4PM to 4AM </p>
+                </span>
+                
+            </div>
+
+            <div class="">
+                <a href="https://mail.google.com/" target="_blank">
+                    <i class="fas fa-envelope-open-text"></i></a>
+                
+                <span>
+                    <h5>ahmedyeamin05@gmail.com</h5>
+                    <p>E-mail Us Your Any Query</p>
+                </span>
+            </div>
+
+            <div class="">
+                <a href="https://www.facebook.com/MdYeamin04" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+                <span>
+                    <h5>Facebook</h5>
+                    <p>SMS Us Your Any Query</p>
+                </span>
+            </div>
+        </div>
+
+
+
+        <div class="contact-col">
+
+<form action="from-control.php" method="POST">
+    <input type="text" name="name" placeholder="enter your name" required>
+    <input type="email" name="email" placeholder="enter your email" required>
+    <input type="text" name="subject" placeholder="enter your subject" required>
+    <textarea rows="10" name="message" required>your message</textarea>
+    <button type="submit" class="hero-btn red-btn">Send Message</button>
+</form>
+
+
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------footer----------- -->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odio aliquam ipsam sapiente illo? Repellat <br>itaque eveniet praesentium dolor nulla impedit dignissimos eligendi nisi alias?</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fas fa-heartbeat"></i> by Easy Tutorials</p>
+    <div class="about-col">
+       
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------JS Menu bar style--------->
+<script>
+    var navLinks = document.getElementById ("navLinks");
+    function showMenu(){
+        navLinks.style.right = ("0");
+    }
+    function hideMenu() {
+        navLinks.style.right = ("-200px")
+    }
+</script>
+
+
+</body>
+</html>
